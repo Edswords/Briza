@@ -1,0 +1,27 @@
+/*#main a {
+    color: white; 
+}´*/
+
+#carousel-fade .overlay .container{
+    height: 100%;
+}
+#carousel-fade{
+    position: relative;
+}
+#carousel-fade .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index:1;
+}
+
+
+#main .carousel-inner img{
+    height: 100vh;
+    object-fit: cover;	
+
+    }
